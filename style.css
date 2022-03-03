@@ -1,0 +1,11 @@
+.top-image{
+  width: 100%;
+  height: 259px;
+  background-image: url(./sources/pexels-dick-hoskins-6642081.jpeg);
+  background-attachment: ;
+  background-size: cover;
+}
+#icon-icebear{
+  background-image: url(./sources/IMG_0224.png);
+  background-color: red;
+}
