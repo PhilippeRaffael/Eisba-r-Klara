@@ -11,3 +11,10 @@
   background-size: cover;
   background-image:url(./sources/polar_bear_bear_paw_172111_800x1200.jpg);
 }
+
+.logo{
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-image: url(sources/Logos.png);
+}
