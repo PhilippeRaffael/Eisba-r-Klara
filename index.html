@@ -14,12 +14,14 @@
     </div>
     <nav class="navbar navbar-dark bg-secondary">
       <div class="container-fluid">
-        <div class="row-col-2">
-          <a class="navbar-brand" href=./index.html>
-            <img src="./sources/IMG_0224.png" class="img-fluid" alt="Eisbärlogo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <div class="row align-items-center">
+          <div class="col">
+            <a class="navbar-brand" href=./index.html><img src="./sources/IMG_0224.png" class="img-fluid" alt="Eisbärlogo"></a>
+          </div>
+          <div class="col">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
+          </div>
           </button>
         </div>
         <div class="offcanvas offcanvas-end bg-secondary text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -49,10 +51,14 @@
     </div>
     <div class="row mx-0">
       <div class="col-md-4 bg-secondary text-white">
-        <p class="h1">Ihr Beitrag</p>
-        <div class="d-grid gap-2 col-8 mb-0 mt-3">
-          <a class="btn btn-outline-light text-start" href="./donate.html" role="button">Spenden</a>
-          <a class="btn btn-outline-light text-start" href="./membership.html" role="button">Mitglied werden</a>
+        <div class="col">
+          <p class="h1">Ihr Beitrag</p>
+        </div>
+        <div class="col-1">
+          <div class=".flex-column-reverse">
+            <a class="btn btn-outline-light text-start" href="./donate.html" role="button">Spenden</a>
+            <a class="btn btn-outline-light text-start" href="./membership.html" role="button">Mitglied werden</a>
+          </div>
         </div>
       </div>
       <div class="col bg-white">
