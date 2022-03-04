@@ -11,18 +11,18 @@
 <body>
   <div class="container">
     <div class="row">
-          <img src="./sources/Header-Image.jpeg" class="img-fluid" alt="top-image">
+      <img src="./sources/Header-Image.jpeg" class="img-fluid" alt="top-image">
     </div>
     <nav class="navbar navbar-dark bg-secondary">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col">
+          <div class="col mx-5">
             <a class="navbar-brand img-fluid" href=./index.html><img src="./sources/Eisbär-Logo-Weiß.png" alt="Eisbärlogo"></a>
           </div>
           <div class="col">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </div>
+              <span class="navbar-toggler-icon"></span>
+            </div>
           </button>
         </div>
         <div class="offcanvas offcanvas-end bg-secondary text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -34,53 +34,61 @@
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item"><a class="nav-link active" aria-current="page" href=./index.html>Home</a></li>
               <li class="nav-item"><a class="nav-link active" aria-current="page" href=./about.html>About</a></li>
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href=./donate.html>Spenden</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href=./donate.html>Spenden</a></li>
               <li class="nav-item"><a class="nav-link active" aria-current="page" href=./membership.html>Mitglied werden</a></li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    <div class="row mx-0">
-      <div class="col bg-light">
+    <div class="row mx-0"> <!-- Our project box with picture & text -->
+      <div class="col-md-9 bg-light"> <!-- Our project header & text -->
         <h1>Unser Projekt</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
-      <div class="col-md-4 px-0">
+      <div class="col-md-3 px-0"> <!-- Polarbear picture -->
         <img src="./sources/polar_bear_bear_paw_172111_800x1200.jpg" class="img-fluid" alt="...">
       </div>
     </div>
-    <div class="row mx-0">
-      <div class="col-md-4 bg-secondary text-white">
-        <div class="col">
+    <div class="row mx-0"> <!-- "Ihr Beitrag" box & text with icons -->
+      <div class="col-md-4 bg-secondary text-white"> <!-- "Ihr Beitrag" text & buttons -->
+        <div class="d-grid gap-2 mb-5"> <!-- "Ihr Beitrag"-box header & text -->
           <p class="h1">Ihr Beitrag</p>
+          <p>Vivamus sodales ornare metus consequat fringilla. Cras luctus dapibus neque, et pretium nulla facilisis in. Integer magna risus, vehicula quis viverra eget, ullamcorper suscipit magna.</p>
         </div>
-        <div class="col-1">
-            <a class="btn btn-outline-light text-start" href="./donate.html" role="button">Spenden</a>
-            <a class="btn btn-outline-light text-start" href="./membership.html" role="button">Mitglied werden</a>
+        <div class="d-grid gap-3 col-8 my-5"> <!-- Donate & membership buttons -->
+          <a class="btn btn-outline-light text-start" href="./donate.html" role="button">Spenden &gt</a>
+          <a class="btn btn-outline-light text-start" href="./membership.html" role="button">Mitglied werden &gt</span></a>
         </div>
       </div>
-      <div class="col bg-white">
-        <div class="row p-3 mb-5">
-          <div class="col-lg-4 col-12 my-2">In arcu cursus euismod quis viverra nibh cras. Quis viverra nibh cras pulvinar mattis nunc. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-          <div class="col-lg-4 col-12 my-2">Feugiat nibh sed pulvinar proin gravida. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-          <div class="col-lg-4 col-12 my-2">Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Nunc non blandit massa enim. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <div class="col-md-8 bg-white"> <!-- Icon & text row -->
+        <div class="row"> <!-- Three texts above the icons -->
+          <div class="col">
+            In arcu cursus euismod quis viverra nibh cras. Quis viverra nibh cras pulvinar mattis nunc. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </div>
+          <div class="col">
+            Feugiat nibh sed pulvinar proin gravida. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+          <div class="col">
+            Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Nunc non blandit massa enim. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
         </div>
-        <div class="row px-5 mt-5 justify-content-center">
-          <div class="col-md-4">
+        <div class="row"> <!-- Icons Eco, WWF & Organic -->
+          <div class="col">
             <a href="#"><img src="./sources/100eco.png" class="img-fluid" alt="logos"></a>
           </div>
-          <div class="col-md-4">
+          <div class="col">
             <a href="#"><img src="./sources/WWF.png" class="img-fluid" alt="logos"></a>
           </div>
-          <div class="col-md-4">
+          <div class="col">
             <a href="#"><img src="./sources/Organic.png" class="img-fluid" alt="logos"></a>
-          </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
