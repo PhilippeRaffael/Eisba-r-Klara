@@ -10,34 +10,24 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <img src="./sources/Header-Image.jpeg" class="img-fluid" alt="top-image">
-    </div>
+    <img src="./sources/Header-Image.jpeg" class="img-fluid" alt="top-image">
     <nav class="navbar navbar-dark bg-secondary">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col mx-5">
-            <a class="navbar-brand img-fluid" href=./index.html><img src="./sources/Eisbaer-Logo-Weiss.png" alt="Eisbärlogo"></a>
-          </div>
-          <div class="col">
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </div>
-          </button>
+      <a class="navbar-brand img-fluid mx-auto" href=./index.html><img src="./sources/Eisbaer-Logo-Weiss.png" alt="Eisbärlogo"31></a>
+      <button class="navbar-toggler me-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end bg-secondary text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Klaras Eisbärenhilfe</h5>
+          <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas offcanvas-end bg-secondary text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Klaras Eisbärenhilfe</h5>
-            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href=./index.html>Home</a></li>
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href=./about.html>About</a></li>
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href=./donate.html>Spenden</a></li>
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href=./membership.html>Mitglied werden</a></li>
-            </ul>
-          </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href=./index.html>Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href=./about.html>About</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href=./donate.html>Spenden</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href=./membership.html>Mitglied werden</a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -56,20 +46,22 @@
           <p class="h1">Ihr Beitrag</p>
           <p>Vivamus sodales ornare metus consequat fringilla. Cras luctus dapibus neque, et pretium nulla facilisis in. Integer magna risus, vehicula quis viverra eget, ullamcorper suscipit magna.</p>
         </div>
-        <div class="d-grid gap-3 col-8 my-5"> <!-- Donate & membership buttons -->
-          <a class="btn btn-outline-light text-start" href="./donate.html" role="button">Spenden &gt</a>
-          <a class="btn btn-outline-light text-start" href="./membership.html" role="button">Mitglied werden &gt</span></a>
+        <div class="row">
+          <div class="col d-grid gap-3" style="max-height:92px"> <!-- Donate & membership buttons -->
+            <a class="btn btn-outline-light text-start" href="./donate.html" role="button">Spenden &gt</a>
+            <a class="btn btn-outline-light text-start" href="./membership.html" role="button">Mitglied werden &gt</span></a>
+          </div>
         </div>
       </div>
       <div class="col-md-8 bg-white p-3"> <!-- Icon & text row -->
         <div class="row"> <!-- Three texts above the icons -->
-          <div class="col mb-3">
+          <div class="col-12 col-lg-4 col-md-6 mb-3">
             In arcu cursus euismod quis viverra nibh cras. Quis viverra nibh cras pulvinar mattis nunc. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </div>
-          <div class="col mb-3">
+          <div class="col-12 col-lg-4 col-md-6 mb-3">
             Feugiat nibh sed pulvinar proin gravida. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </div>
-          <div class="col mb-3">
+          <div class="col-12 col-lg-4 col-md-6 mb-3">
             Nec feugiat in fermentum posuere urna nec tincidunt praesent semper. Nunc non blandit massa enim. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
